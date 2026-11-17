@@ -8,6 +8,7 @@
   --badge-fulfilled-bg: #dcfce7;
   --badge-out: #b91c1c;
   --badge-out-bg: #fee2e2;
+  --header: #110b8b;
   /* Pico redefines --pico-color inside buttons, so keep the page's own
      text color under a name of our own. */
   --text: var(--pico-color);
@@ -22,10 +23,15 @@
     --badge-fulfilled-bg: #0f3a22;
     --badge-out: #fca5a5;
     --badge-out-bg: #4a1414;
+    --header: #fcd34d;
   }
 }
 
 /* ---- Page ---- */
+
+nav ul li{
+  color: var(--header)
+}
 
 #root > header,
 #root > main {
